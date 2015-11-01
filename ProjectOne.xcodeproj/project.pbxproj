@@ -398,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mn.ztech.ProjectOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mn.ztech.ProjectOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +484,7 @@
 				3C6CE42A1BE5BFF500D151B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6CE42B1BE5BFF500D151B6 /* Build configuration list for PBXNativeTarget "ProjectOneTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +493,7 @@
 				3C6CE42D1BE5BFF500D151B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6CE42E1BE5BFF500D151B6 /* Build configuration list for PBXNativeTarget "ProjectOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +502,7 @@
 				3C6CE4301BE5BFF500D151B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
