@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var toolbar = UIToolbar(frame: CGRectMake(0,0,self.view.bounds.width,self.view.bounds.height));
+        self.view.addSubview(toolbar);
         // Do any additional setup after loading the view, typically from a nib.
     }
 
