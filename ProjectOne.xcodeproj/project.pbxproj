@@ -14,6 +14,10 @@
 		3C6CE40E1BE5BFF500D151B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CE40C1BE5BFF500D151B6 /* LaunchScreen.storyboard */; };
 		3C6CE4191BE5BFF500D151B6 /* ProjectOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE4181BE5BFF500D151B6 /* ProjectOneTests.swift */; };
 		3C6CE4241BE5BFF500D151B6 /* ProjectOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE4231BE5BFF500D151B6 /* ProjectOneUITests.swift */; };
+		3C6CE4491BE5C7A800D151B6 /* ChallangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE4461BE5C7A800D151B6 /* ChallangeViewController.swift */; };
+		3C6CE44B1BE5C7B500D151B6 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE44A1BE5C7B500D151B6 /* ForumViewController.swift */; };
+		3C6CE44D1BE5C7C600D151B6 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE44C1BE5C7C600D151B6 /* NotificationViewController.swift */; };
+		3C6CE44F1BE5D16900D151B6 /* GSBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE44E1BE5D16900D151B6 /* GSBarButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3C6CE41F1BE5BFF500D151B6 /* ProjectOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6CE4231BE5BFF500D151B6 /* ProjectOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOneUITests.swift; sourceTree = "<group>"; };
 		3C6CE4251BE5BFF500D151B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6CE4461BE5C7A800D151B6 /* ChallangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallangeViewController.swift; sourceTree = "<group>"; };
+		3C6CE44A1BE5C7B500D151B6 /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		3C6CE44C1BE5C7C600D151B6 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		3C6CE44E1BE5D16900D151B6 /* GSBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		3C6CE4021BE5BFF500D151B6 /* ProjectOne */ = {
 			isa = PBXGroup;
 			children = (
+				3C6CE4451BE5C7A800D151B6 /* Challange */,
+				3C6CE4471BE5C7A800D151B6 /* Forums */,
+				3C6CE4481BE5C7A800D151B6 /* Notification */,
 				3C6CE4031BE5BFF500D151B6 /* AppDelegate.swift */,
 				3C6CE4051BE5BFF500D151B6 /* ViewController.swift */,
 				3C6CE4071BE5BFF500D151B6 /* Main.storyboard */,
 				3C6CE40A1BE5BFF500D151B6 /* Assets.xcassets */,
 				3C6CE40C1BE5BFF500D151B6 /* LaunchScreen.storyboard */,
 				3C6CE40F1BE5BFF500D151B6 /* Info.plist */,
+				3C6CE44E1BE5D16900D151B6 /* GSBarButtonItem.swift */,
 			);
 			path = ProjectOne;
 			sourceTree = "<group>";
@@ -123,6 +135,30 @@
 				3C6CE4251BE5BFF500D151B6 /* Info.plist */,
 			);
 			path = ProjectOneUITests;
+			sourceTree = "<group>";
+		};
+		3C6CE4451BE5C7A800D151B6 /* Challange */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CE4461BE5C7A800D151B6 /* ChallangeViewController.swift */,
+			);
+			path = Challange;
+			sourceTree = "<group>";
+		};
+		3C6CE4471BE5C7A800D151B6 /* Forums */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CE44A1BE5C7B500D151B6 /* ForumViewController.swift */,
+			);
+			path = Forums;
+			sourceTree = "<group>";
+		};
+		3C6CE4481BE5C7A800D151B6 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				3C6CE44C1BE5C7C600D151B6 /* NotificationViewController.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6CE44D1BE5C7C600D151B6 /* NotificationViewController.swift in Sources */,
+				3C6CE44B1BE5C7B500D151B6 /* ForumViewController.swift in Sources */,
+				3C6CE44F1BE5D16900D151B6 /* GSBarButtonItem.swift in Sources */,
 				3C6CE4061BE5BFF500D151B6 /* ViewController.swift in Sources */,
 				3C6CE4041BE5BFF500D151B6 /* AppDelegate.swift in Sources */,
+				3C6CE4491BE5C7A800D151B6 /* ChallangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
