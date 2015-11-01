@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
-//        var toolbar = UIToolbar(frame: CGRectMake(0,0,self.view.bounds.width,self.view.bounds.height));
+//        let toolbar = UIToolbar(frame: CGRectMake(0,self.view.bounds,self.view.bounds.width,44));
 //        self.view.addSubview(toolbar);
         // Do any additional setup after loading the view, typically from a nib.
     }
