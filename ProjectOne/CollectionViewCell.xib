@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CollectionViewCell" customModule="ProjectOne" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55c-O1-38W">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ic_challengeOne" translatesAutoresizingMaskIntoConstraints="NO" id="jOf-Pw-upY">
+                            <rect key="frame" x="263" y="10" width="74" height="74"/>
+                            <animations/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WEB DESIGN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrU-US-vw0">
+                            <rect key="frame" x="228" y="94" width="144" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.64899383804934552" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="IrU-US-vw0" firstAttribute="top" secondItem="jOf-Pw-upY" secondAttribute="bottom" constant="10" id="Uii-vb-IYC"/>
+                        <constraint firstItem="jOf-Pw-upY" firstAttribute="top" secondItem="55c-O1-38W" secondAttribute="top" constant="10" id="hlW-5D-iUX"/>
+                        <constraint firstItem="IrU-US-vw0" firstAttribute="centerX" secondItem="55c-O1-38W" secondAttribute="centerX" id="nIE-0A-47i"/>
+                        <constraint firstItem="jOf-Pw-upY" firstAttribute="centerX" secondItem="55c-O1-38W" secondAttribute="centerX" id="tlI-Z0-raa"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWH-np-vZ8">
+                    <rect key="frame" x="30" y="532" width="540" height="48"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.6470588235294118" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="aJJ-7y-63h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                    <state key="normal" title="REGISTER">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mul-Mo-6uP">
+                    <rect key="frame" x="25" y="120" width="550" height="390"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.93295984100877183" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UWH-np-vZ8" firstAttribute="top" secondItem="Mul-Mo-6uP" secondAttribute="bottom" constant="22" id="C6s-1h-HaI"/>
+                <constraint firstItem="UWH-np-vZ8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="OcL-Sh-3se"/>
+                <constraint firstItem="Mul-Mo-6uP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="QIP-xp-daT"/>
+                <constraint firstItem="55c-O1-38W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Sd3-pI-bOp"/>
+                <constraint firstAttribute="trailing" secondItem="UWH-np-vZ8" secondAttribute="trailing" constant="30" id="b4A-V7-gLS"/>
+                <constraint firstItem="UWH-np-vZ8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lmt-Xx-mQL"/>
+                <constraint firstAttribute="trailing" secondItem="55c-O1-38W" secondAttribute="trailing" id="lvM-5b-ggc"/>
+                <constraint firstItem="55c-O1-38W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="myQ-Va-X0G"/>
+                <constraint firstAttribute="bottom" secondItem="UWH-np-vZ8" secondAttribute="bottom" constant="20" id="nK6-kg-Irq"/>
+                <constraint firstAttribute="trailing" secondItem="Mul-Mo-6uP" secondAttribute="trailing" constant="25" id="qpQ-Pf-PBU"/>
+                <constraint firstItem="Mul-Mo-6uP" firstAttribute="top" secondItem="55c-O1-38W" secondAttribute="bottom" id="s9X-SY-ve1"/>
+            </constraints>
+            <connections>
+                <outlet property="scrollView" destination="Mul-Mo-6uP" id="x1C-RE-62x"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_challengeOne" width="62" height="62"/>
+    </resources>
+</document>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A1E8B1BE6B2A000360E45 /* LGHorizontalLinearFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1E8A1BE6B2A000360E45 /* LGHorizontalLinearFlowLayout.swift */; };
+		041A1E8D1BE6B36700360E45 /* ChallangeDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A1E8C1BE6B36700360E45 /* ChallangeDetails.xib */; };
+		041A1E8F1BE6B39100360E45 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1E8E1BE6B39100360E45 /* CollectionViewCell.swift */; };
+		041A1E911BE6B3D100360E45 /* ChallangeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1E901BE6B3D100360E45 /* ChallangeDetails.swift */; };
+		041A1E931BE6BFDD00360E45 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041A1E921BE6BFDD00360E45 /* CollectionViewCell.xib */; };
 		3C6CE4041BE5BFF500D151B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE4031BE5BFF500D151B6 /* AppDelegate.swift */; };
 		3C6CE4061BE5BFF500D151B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CE4051BE5BFF500D151B6 /* ViewController.swift */; };
 		3C6CE4091BE5BFF500D151B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CE4071BE5BFF500D151B6 /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041A1E8A1BE6B2A000360E45 /* LGHorizontalLinearFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LGHorizontalLinearFlowLayout.swift; path = ../LGHorizontalLinearFlowLayout.swift; sourceTree = "<group>"; };
+		041A1E8C1BE6B36700360E45 /* ChallangeDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChallangeDetails.xib; path = ProjectOne/ChallangeDetails.xib; sourceTree = SOURCE_ROOT; };
+		041A1E8E1BE6B39100360E45 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
+		041A1E901BE6B3D100360E45 /* ChallangeDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChallangeDetails.swift; path = ProjectOne/ChallangeDetails.swift; sourceTree = SOURCE_ROOT; };
+		041A1E921BE6BFDD00360E45 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = ../CollectionViewCell.xib; sourceTree = "<group>"; };
 		3C6CE4001BE5BFF500D151B6 /* ProjectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6CE4031BE5BFF500D151B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C6CE4051BE5BFF500D151B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,10 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044E350D1BE6C6FB0014ECF3 /* ChallangeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				041A1E901BE6B3D100360E45 /* ChallangeDetails.swift */,
+				041A1E8C1BE6B36700360E45 /* ChallangeDetails.xib */,
+				041A1E8A1BE6B2A000360E45 /* LGHorizontalLinearFlowLayout.swift */,
+				041A1E8E1BE6B39100360E45 /* CollectionViewCell.swift */,
+				041A1E921BE6BFDD00360E45 /* CollectionViewCell.xib */,
+			);
+			name = ChallangeDetails;
+			path = ProjectOne/ChallangeDetails;
+			sourceTree = "<group>";
+		};
 		3C6CE3F71BE5BFF400D151B6 = {
 			isa = PBXGroup;
 			children = (
 				3C6CE4021BE5BFF500D151B6 /* ProjectOne */,
+				044E350D1BE6C6FB0014ECF3 /* ChallangeDetails */,
 				3C6CE4171BE5BFF500D151B6 /* ProjectOneTests */,
 				3C6CE4221BE5BFF500D151B6 /* ProjectOneUITests */,
 				3C6CE4011BE5BFF500D151B6 /* Products */,
@@ -267,7 +291,9 @@
 			files = (
 				3C6CE40E1BE5BFF500D151B6 /* LaunchScreen.storyboard in Resources */,
 				3C6CE40B1BE5BFF500D151B6 /* Assets.xcassets in Resources */,
+				041A1E8D1BE6B36700360E45 /* ChallangeDetails.xib in Resources */,
 				3C6CE4091BE5BFF500D151B6 /* Main.storyboard in Resources */,
+				041A1E931BE6BFDD00360E45 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +320,11 @@
 			files = (
 				3C6CE44D1BE5C7C600D151B6 /* NotificationViewController.swift in Sources */,
 				3C6CE44B1BE5C7B500D151B6 /* ForumViewController.swift in Sources */,
+				041A1E8F1BE6B39100360E45 /* CollectionViewCell.swift in Sources */,
 				3C6CE44F1BE5D16900D151B6 /* GSBarButtonItem.swift in Sources */,
 				3C6CE4061BE5BFF500D151B6 /* ViewController.swift in Sources */,
+				041A1E8B1BE6B2A000360E45 /* LGHorizontalLinearFlowLayout.swift in Sources */,
+				041A1E911BE6B3D100360E45 /* ChallangeDetails.swift in Sources */,
 				3C6CE4041BE5BFF500D151B6 /* AppDelegate.swift in Sources */,
 				3C6CE4491BE5C7A800D151B6 /* ChallangeViewController.swift in Sources */,
 			);
